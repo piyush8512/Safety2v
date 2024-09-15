@@ -5,11 +5,28 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Map">
-    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".MapActivity">
+
+    <!-- Map Fragment -->
+    <fragment
         android:id="@+id/map"
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
+<!--     Small Round Button for Location -->
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/my_location_button"-->
+<!--        android:layout_width="56dp"-->
+<!--        android:layout_height="56dp"-->
+<!--        android:layout_margin="16dp"-->
+<!--        android:layout_marginTop="184dp"-->
+<!--        android:layout_marginEnd="16dp"-->
+<!--        android:background="@drawable/round_button_background"-->
+<!--        android:contentDescription="Locate Me"-->
+<!--        android:elevation="4dp"-->
+<!--        android:src="@drawable/ic_location"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

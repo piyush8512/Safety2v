@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/bg_rounded_rectangle.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background color (white) -->
+    <solid android:color="#F5F5FA" /> <!-- Inside color: White -->
+
+    <!-- Border color (gray) and width -->
+    <stroke
+        android:width="2dp"
+        android:color="#BDBDBD" /> <!-- Border color: Gray (#BDBDBD) -->
+
+    <!-- Rounded corners -->
+    <corners android:radius="34dp" />
+</shape>
+

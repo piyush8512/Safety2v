@@ -31,7 +31,7 @@ public class Loaction extends AppCompatActivity {
 
         // Initialize the location TextView
         locationTextView = findViewById(R.id.location_text_view);
-        locationbtn = findViewById(R.id.location);
+//        locationbtn = findViewById(R.id.location);
 
         // Retrieve location passed from MainActivity
         String location = getIntent().getStringExtra("LOCATION");
